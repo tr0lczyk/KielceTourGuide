@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.kielcetourguide.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/see">
+
+        <TextView
+            android:id="@+id/see"
+            style="@style/CategoryStyle"
+            android:text="@string/what_to_see" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/eat">
+
+        <TextView
+            android:id="@+id/eat"
+            style="@style/CategoryStyle"
+            android:text="@string/where_to_eat" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sleep">
+
+        <TextView
+            android:id="@+id/sleep"
+            style="@style/CategoryStyle"
+            android:text="@string/where_to_sleep" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/doing">
+
+        <TextView
+            android:id="@+id/doing"
+            style="@style/CategoryStyle"
+            android:text="@string/doing"/>
+    </FrameLayout>
+
+</LinearLayout>

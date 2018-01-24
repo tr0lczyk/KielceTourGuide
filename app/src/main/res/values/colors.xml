@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F8A107</color>
+    <color name="colorPrimaryDark">#ff8000</color>
+    <color name="colorAccent">#FE0000</color>
+    <color name="see">#ff1919</color>
+    <color name="eat">#2CADD6</color>
+    <color name="sleep">#72D865</color>
+    <color name="doing">#F13AAF</color>
+    <color name="category">#FFFFFF</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kielce TourGuide</string>
+    <string name="what_to_see">What to see?</string>
+    <string name="where_to_eat">Where to eat?</string>
+    <string name="where_to_sleep">Where to sleep?</string>
+    <string name="doing">What to do?</string>
+</resources>
