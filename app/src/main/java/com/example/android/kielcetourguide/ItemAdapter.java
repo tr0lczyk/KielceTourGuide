@@ -16,6 +16,10 @@ import java.util.ArrayList;
  * Created by Mateusz on 25.01.2018.
  */
 
+/*
+* Creation of the custom adapter class that extends methods from the ArrayAdapter
+* */
+
 public class ItemAdapter extends ArrayAdapter<Item> {
 
 
@@ -34,7 +38,6 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         }
 
         Item currentItem = getItem(position);
-
 
         TextView placeName = listItemView.findViewById(R.id.place_name);
         placeName.setText(currentItem.getPlaceName());

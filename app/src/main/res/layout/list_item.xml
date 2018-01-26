@@ -4,13 +4,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:padding="8dp"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="#FFFACD">
 
     <ImageView
         android:id="@+id/image_id"
-        android:layout_width="110dp"
+        android:layout_width="140dp"
         android:layout_height="88dp"
         tools:src="@drawable/burgerco"
         android:scaleType="fitCenter"/>
@@ -18,7 +19,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:padding="16dp">
+        android:padding="8dp">
 
         <TextView
             android:id="@+id/place_name"
@@ -32,6 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/place_name"
+            android:textStyle="italic"
             android:textAppearance="?android:textAppearanceSmall"
             tools:text="opis miejsca bla bla b;la" />
 
