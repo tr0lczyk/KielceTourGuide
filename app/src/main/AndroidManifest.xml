@@ -24,6 +24,8 @@
             android:label="@string/where_to_sleep" />
         <activity android:name=".DoingActivity"
             android:label="@string/doing"></activity>
+        <activity android:name=".ItemDescription"
+            android:label="@string/doing"></activity>
     </application>
 
 </manifest>

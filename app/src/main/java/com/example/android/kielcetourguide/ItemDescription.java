@@ -11,15 +11,17 @@ import android.widget.TextView;
  */
 
 public class ItemDescription extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.item_description);
 
-        TextView name = findViewById(R.id.place_description_name);
-        ImageView image = findViewById(R.id.place_description_image_id);
-        TextView placeDescription = findViewById(R.id.place_description_description);
+        TextView name = (TextView) findViewById(R.id.place_description_name);
+        ImageView image = (ImageView) findViewById(R.id.place_description_image_id);
+        TextView placeDescription = (TextView) findViewById(R.id.place_description_description);
 
-        Bundle extras=getIntent().getExtras();
+        Bundle extras = getIntent().getExtras();
 
         name.setText(extras.getString("name"));
         image.setImageResource(extras.getInt("image"));

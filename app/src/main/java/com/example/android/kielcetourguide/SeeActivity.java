@@ -38,7 +38,10 @@ public class SeeActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                  Item currentItem = items.get(position);
                  Intent intent = new Intent(SeeActivity.this,ItemDescription.class);
-                 intent.putExtra(currentItem.)
+                 intent.putExtra("name",currentItem.getPlaceName());
+                 intent.putExtra("placeDescription",currentItem.getPlaceDescription());
+                 intent.putExtra("image", currentItem.getImageResourceId());
+                 startActivity(intent);
             }
         });
     }
