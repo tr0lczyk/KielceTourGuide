@@ -1,7 +1,10 @@
 package com.example.android.kielcetourguide;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -14,7 +17,7 @@ public class SeeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.item_list);
 
-        ArrayList<Item> items = new ArrayList<>();
+        final ArrayList<Item> items = new ArrayList<>();
         items.add(new Item("Solna 12","An intimate restaurant",R.drawable.solna12));
         items.add(new Item("Tutti Santi Kielce","Magnificent Italian cuisine",R.drawable.tutti));
         items.add(new Item("John Burg","Best Steakes and burgers",R.drawable.johnburg));
@@ -26,9 +29,17 @@ public class SeeActivity extends AppCompatActivity {
         items.add(new Item("Craft Beer Pub","Very nice place",R.drawable.craftbeer));
         items.add(new Item("Monte-Carlo","Delicious and very efficient",R.drawable.montecarlo));
 
-
         ItemAdapter itemsArray = new ItemAdapter(this,items);
         ListView listView = (ListView) findViewById(R.id.list_view);
         listView.setAdapter(itemsArray);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                 Item currentItem = items.get(position);
+                 Intent intent = new Intent(SeeActivity.this,ItemDescription.class);
+                 intent.putExtra(currentItem.)
+            }
+        });
     }
 }
