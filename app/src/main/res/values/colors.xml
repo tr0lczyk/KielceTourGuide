@@ -8,4 +8,5 @@
     <color name="sleep">#72D865</color>
     <color name="doing">#F13AAF</color>
     <color name="category">#FFFFFF</color>
+    <color name="background_color">#FFFACD</color>
 </resources>

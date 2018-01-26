@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:padding="8dp">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/place_description_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:text="John Burger"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/place_description_image_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:src="@drawable/burgerco"
+        android:scaleType="centerCrop"
+        android:layout_weight="2"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/place_description_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        tools:text="A place worth recommending"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="italic"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp"/>
+
+
+    <ImageView
+        android:id="@+id/place_description_location"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/google_maps"
+        android:layout_weight="1"/>
+
+
+
+
+</LinearLayout>

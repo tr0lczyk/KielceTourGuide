@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:padding="8dp"
     android:orientation="horizontal"
-    android:background="#FFFACD">
+    android:background="@color/background_color">
 
     <ImageView
         android:id="@+id/image_id"
