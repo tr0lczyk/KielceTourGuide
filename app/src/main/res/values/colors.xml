@@ -3,10 +3,11 @@
     <color name="colorPrimary">#F8A107</color>
     <color name="colorPrimaryDark">#ff8000</color>
     <color name="colorAccent">#FE0000</color>
-    <color name="see">#ff1919</color>
-    <color name="eat">#2CADD6</color>
-    <color name="sleep">#72D865</color>
-    <color name="doing">#F13AAF</color>
+    <color name="see">#CA5010</color>
+    <color name="eat">#8E8CD8</color>
+    <color name="sleep">#00B7C3</color>
+    <color name="doing">#68768A</color>
     <color name="category">#FFFFFF</color>
     <color name="background_color">#FFFACD</color>
+    <color name="text_color">#FFFFFF</color>
 </resources>

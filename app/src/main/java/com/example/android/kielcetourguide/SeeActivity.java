@@ -29,7 +29,7 @@ public class SeeActivity extends AppCompatActivity {
         items.add(new Item("Craft Beer Pub","Very nice place",R.drawable.craftbeer));
         items.add(new Item("Monte-Carlo","Delicious and very efficient",R.drawable.montecarlo));
 
-        ItemAdapter itemsArray = new ItemAdapter(this,items);
+        final ItemAdapter itemsArray = new ItemAdapter(this,items, R.color.see);
         ListView listView = (ListView) findViewById(R.id.list_view);
         listView.setAdapter(itemsArray);
 

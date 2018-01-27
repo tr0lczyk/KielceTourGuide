@@ -48,8 +48,4 @@
         android:layout_height="0dp"
         android:src="@drawable/google_maps"
         android:layout_weight="1"/>
-
-
-
-
 </LinearLayout>
