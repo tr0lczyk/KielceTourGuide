@@ -1,6 +1,8 @@
 package com.example.android.kielcetourguide;
 
+import android.content.Intent;
 import android.media.Image;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -24,7 +26,7 @@ public class ItemDescription extends AppCompatActivity {
         TextView placeDescription = (TextView) findViewById(R.id.place_description_description);
         ImageView placeDescriptionLocation = (ImageView) findViewById(R.id.place_description_location);
 
-        Bundle extras = getIntent().getExtras();
+        final Bundle extras = getIntent().getExtras();
 
         name.setText(extras.getString("name"));
         image.setImageResource(extras.getInt("image"));
@@ -33,6 +35,11 @@ public class ItemDescription extends AppCompatActivity {
         placeDescriptionLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String address = extras.getString("name");
+                Uri mapUri = Uri.parse("geo:0,0?q=" + Uri.encode(address));
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
 
             }
         });
