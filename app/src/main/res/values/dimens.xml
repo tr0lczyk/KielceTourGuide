@@ -8,4 +8,6 @@
     <dimen name="item_description_margin">8dp</dimen>
     <!--width of the list_item image-->
     <dimen name="list_item_image">140dp</dimen>
+    <!--weighted height-->
+    <dimen name="item_description_weighten_height">0dp</dimen>
 </resources>

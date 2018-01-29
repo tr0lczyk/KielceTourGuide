@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPager pager = (ViewPager) findViewById(R.id.viewpager);
         TabLayout tabLayout = findViewById(R.id.tabs);
-        KielceTourFragmentPagerAdapter categoryAdapter = new KielceTourFragmentPagerAdapter(getSupportFragmentManager());
+        KielceTourFragmentPagerAdapter categoryAdapter = new KielceTourFragmentPagerAdapter(this,getSupportFragmentManager());
         pager.setAdapter(categoryAdapter);
         tabLayout.setupWithViewPager(pager);
     }

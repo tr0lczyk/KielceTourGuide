@@ -40,7 +40,7 @@ public class EatFragment extends Fragment {
         items.add(new Item("Yellow Elephant","The best Mediterranean cuisine",R.drawable.slon));
         items.add(new Item("Cremova","Delicious cakes and tea",R.drawable.cremova));
         items.add(new Item("Craft Beer Pub","Very nice place",R.drawable.craftbeer));
-        items.add(new Item("Monte-Carlo","Delicious and very efficient",R.drawable.montecarlo));
+        items.add(new Item("Monte-Carlo Restaurant","Delicious and very efficient",R.drawable.montecarlo));
 
         final ItemAdapter itemsArray = new ItemAdapter(getActivity(),items, R.color.eat);
         ListView listView = (ListView) rootView.findViewById(R.id.list_view);
