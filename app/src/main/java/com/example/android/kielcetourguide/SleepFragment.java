@@ -33,16 +33,16 @@ public class SleepFragment extends Fragment {
 //        Creates the list of objects from the accurate category
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Solna 12 Restaurant","An intimate restaurant",R.drawable.solna12));
-        items.add(new Item("Tutti Santi Kielce","Magnificent Italian cuisine",R.drawable.tutti));
-        items.add(new Item("John Burg","Best Steakes and burgers",R.drawable.johnburg));
-        items.add(new Item("Del Favero","A real Italy in Kielce",R.drawable.delitaliana));
-        items.add(new Item("Si Senor","A place worth recommending",R.drawable.sisenor));
-        items.add(new Item("Burger & Co.","Mega Tasty!",R.drawable.burgerco));
-        items.add(new Item("Yellow Elephant","The best Mediterranean cuisine",R.drawable.slon));
-        items.add(new Item("Cremova","Delicious cakes and tea",R.drawable.cremova));
-        items.add(new Item("Craft Beer Pub","Very nice place",R.drawable.craftbeer));
-        items.add(new Item("Monte-Carlo Restaurant","Delicious and very efficient",R.drawable.montecarlo));
+        items.add(new Item("Hotel Aviator","from 171 zł for a room",R.drawable.solna12));
+        items.add(new Item("Best Western Grand Hotel","from 162 zł for a room",R.drawable.tutti));
+        items.add(new Item("Ibis Kielce Centrum","from 111 zł for a room",R.drawable.johnburg));
+        items.add(new Item("Hotel Śródmiejski","from 180 zł for a room",R.drawable.delitaliana));
+        items.add(new Item("Qubus Hotel Kielce","from 209 zł for a room",R.drawable.sisenor));
+        items.add(new Item("Odyssey ClubHotel Wellness & SPA","from 420 zł for a room",R.drawable.burgerco));
+        items.add(new Item("Hotel Binkowski","from 240 zł for a room",R.drawable.slon));
+        items.add(new Item("Hotel Teczowy Mlyn","from 130 zł for a room",R.drawable.cremova));
+        items.add(new Item("Hotel Dal","from 134 zł for a room",R.drawable.craftbeer));
+        items.add(new Item("Willa Hueta","from 144 zł for a room",R.drawable.montecarlo));
 
 //        creates adapter with the @param of the object's array and the background color
 //        adapter transferring the information on object to the listVIew that displays them

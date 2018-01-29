@@ -33,16 +33,16 @@ public class DoingFragment extends Fragment {
 //        Creates the list of objects from the accurate category
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Solna 12 Restaurant","An intimate restaurant",R.drawable.solna12));
-        items.add(new Item("Tutti Santi Kielce","Magnificent Italian cuisine",R.drawable.tutti));
-        items.add(new Item("John Burg","Best Steakes and burgers",R.drawable.johnburg));
-        items.add(new Item("Del Favero","A real Italy in Kielce",R.drawable.delitaliana));
-        items.add(new Item("Si Senor","A place worth recommending",R.drawable.sisenor));
-        items.add(new Item("Burger & Co.","Mega Tasty!",R.drawable.burgerco));
-        items.add(new Item("Yellow Elephant","The best Mediterranean cuisine",R.drawable.slon));
-        items.add(new Item("Cremova","Delicious cakes and tea",R.drawable.cremova));
-        items.add(new Item("Craft Beer Pub","Very nice place",R.drawable.craftbeer));
-        items.add(new Item("Monte-Carlo Restaurant","Delicious and very efficient",R.drawable.montecarlo));
+        items.add(new Item("Kielce rope park","Fun, monkey style!",R.drawable.solna12));
+        items.add(new Item("Unlock the doore","A great escape room",R.drawable.tutti));
+        items.add(new Item("Cracow Bishops' Palace","Splendor of the medival priests",R.drawable.johnburg));
+        items.add(new Item("VR disco centre","Virtual dance!",R.drawable.delitaliana));
+        items.add(new Item("VR kielce Experience","Get your virtual fun!",R.drawable.sisenor));
+        items.add(new Item("Museum of Toys and Play Kielce.","Unleash your inner child",R.drawable.burgerco));
+        items.add(new Item("Echo Gallery","Really big shopping mall",R.drawable.slon));
+        items.add(new Item("Amusement Park Krajno","Meet the history of Swietokrzyskie",R.drawable.cremova));
+        items.add(new Item("Kielce's National Museum","Very nice place",R.drawable.craftbeer));
+        items.add(new Item("Świętokrzyska Philharmonic","Great classic concerts",R.drawable.montecarlo));
 
 //        creates adapter with the @param of the object's array and the background color
 //        adapter transferring the information on object to the listVIew that displays them

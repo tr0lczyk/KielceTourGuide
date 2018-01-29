@@ -33,16 +33,16 @@ public class SeeFragment extends Fragment {
 //        Creates the list of objects from the accurate category
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Solna 12 Restaurant","An intimate restaurant",R.drawable.solna12));
-        items.add(new Item("Tutti Santi Kielce","Magnificent Italian cuisine",R.drawable.tutti));
-        items.add(new Item("John Burg","Best Steakes and burgers",R.drawable.johnburg));
-        items.add(new Item("Del Favero","A real Italy in Kielce",R.drawable.delitaliana));
-        items.add(new Item("Si Senor","A place worth recommending",R.drawable.sisenor));
-        items.add(new Item("Burger & Co.","Mega Tasty!",R.drawable.burgerco));
-        items.add(new Item("Yellow Elephant","The best Mediterranean cuisine",R.drawable.slon));
-        items.add(new Item("Cremova","Delicious cakes and tea",R.drawable.cremova));
-        items.add(new Item("Craft Beer Pub","Very nice place",R.drawable.craftbeer));
-        items.add(new Item("Monte-Carlo Restaurant","Delicious and very efficient",R.drawable.montecarlo));
+        items.add(new Item("Sienkiewicza Street","Main street - promenade",R.drawable.solna12));
+        items.add(new Item("Geocentre Kadzielnia","Stones with the concert hall",R.drawable.tutti));
+        items.add(new Item("Karczówka Monastery","Monks' place of peace",R.drawable.johnburg));
+        items.add(new Item("Kielce's Mary Basilic ","Most beautiful church in Kielce",R.drawable.delitaliana));
+        items.add(new Item("Artists' square","Place of events and festivalsg",R.drawable.sisenor));
+        items.add(new Item("Kielce's St. Joseph's","Tallest church in city",R.drawable.burgerco));
+        items.add(new Item("Kielce's St. Wojciech's","Oldest church in Kielce",R.drawable.slon));
+        items.add(new Item("Kielce Market square","Market with restaurants ",R.drawable.cremova));
+        items.add(new Item("Zieliński's Mansion","Culture centre for youg people",R.drawable.craftbeer));
+        items.add(new Item("City Park","A place to catch a breath",R.drawable.montecarlo));
 
 //        creates adapter with the @param of the object's array and the background color
 //        adapter transferring the information on object to the listVIew that displays them
