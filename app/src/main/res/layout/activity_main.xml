@@ -7,49 +7,9 @@
     android:orientation="vertical"
     tools:context="com.example.android.kielcetourguide.MainActivity">
 
-    <FrameLayout
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/see">
-
-        <TextView
-            android:id="@+id/see"
-            style="@style/CategoryStyle"
-            android:text="@string/what_to_see" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/eat">
-
-        <TextView
-            android:id="@+id/eat"
-            style="@style/CategoryStyle"
-            android:text="@string/where_to_eat" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/sleep">
-
-        <TextView
-            android:id="@+id/sleep"
-            style="@style/CategoryStyle"
-            android:text="@string/where_to_sleep" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/doing">
-
-        <TextView
-            android:id="@+id/doing"
-            style="@style/CategoryStyle"
-            android:text="@string/doing"/>
-    </FrameLayout>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

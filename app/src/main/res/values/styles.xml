@@ -18,4 +18,48 @@
         <item name="android:textColor">@color/category</item>
     </style>
 
+    <style name="list_item_main_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="list_item_image">
+        <item name="android:layout_width">@dimen/list_item_image</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="list_item_text_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:paddingTop">@dimen/list_item_padding</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding</item>
+    </style>
+
+    <style name="list_item_place_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="list_item_place_description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/place_name</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="list_item_info_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:paddingRight">@dimen/list_item_padding</item>
+        <item name="android:paddingBottom">@dimen/list_item_padding</item>
+    </style>
+
 </resources>

@@ -16,16 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SeeActivity"
-            android:label="@string/what_to_see"/>
-        <activity android:name=".EatActivity"
-            android:label="@string/where_to_eat" />
-        <activity android:name=".SleepActivity"
-            android:label="@string/where_to_sleep" />
-        <activity android:name=".DoingActivity"
-            android:label="@string/doing"></activity>
+        <!-- Parent activity meta-data to support 4.0 and lower -->
         <activity android:name=".ItemDescription"
-            android:label="@string/doing"></activity>
+            android:label="@string/doing"
+            android:parentActivityName="com.example.android.kielcetourguide.MainActivity"/>
     </application>
 
 </manifest>

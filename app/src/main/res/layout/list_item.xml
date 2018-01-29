@@ -3,50 +3,26 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:id="@+id/text_container">
+    android:id="@+id/text_container"
+    style="@style/list_item_main_layout">
 
     <ImageView
         android:id="@+id/image_id"
-        android:layout_width="140dp"
-        android:layout_height="88dp"
-        tools:src="@drawable/burgerco"
-        android:scaleType="centerCrop"/>
+        style="@style/list_item_image" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:paddingTop="8dp"
-        android:paddingLeft="8dp">
+    <RelativeLayout style="@style/list_item_text_container">
 
         <TextView
             android:id="@+id/place_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:textAppearanceMedium"
-            tools:text="Dobre Burgery"
-            android:textColor="@color/text_color"/>
+            style="@style/list_item_place_name" />
 
         <TextView
             android:id="@+id/place_description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/place_name"
-            android:textStyle="italic"
-            android:textAppearance="?android:textAppearanceSmall"
-            tools:text="opis miejsca bla bla bla"
-            android:textColor="@color/text_color" />
+            style="@style/list_item_place_description" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:src="@drawable/ic_info_white"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:paddingRight="8dp"
-            android:paddingBottom="8dp"/>
+            style="@style/list_item_info_icon" />
 
     </RelativeLayout>
 

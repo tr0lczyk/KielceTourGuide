@@ -25,9 +25,16 @@ public class ItemAdapter extends ArrayAdapter<Item> {
 
     private int mColorResourceId;
 
+    /**
+     * Constructor creation that will define ItemAdapter class
+     * Inflating layout with the current context - currentItem
+     * List of Items objects will be created on the listview
+     */
+
 
     public ItemAdapter(Activity context, ArrayList<Item> items, int colorResourceId) {
         super(context, 0, items);
+        /*color is added as a additional value of adapter*/
         mColorResourceId = colorResourceId;
     }
 

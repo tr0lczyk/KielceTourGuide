@@ -1,6 +1,7 @@
 package com.example.android.kielcetourguide;
 
 import android.content.Intent;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,41 +19,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        see = findViewById(R.id.see);
-        eat = findViewById(R.id.eat);
-        sleep = findViewById(R.id.sleep);
-        doing = findViewById(R.id.doing);
-
-        see.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent seeIntent = new Intent(MainActivity.this, SeeActivity.class);
-                startActivity(seeIntent);
-            }
-        });
-
-        eat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent eatIntent = new Intent(MainActivity.this, EatActivity.class);
-                startActivity(eatIntent);
-            }
-        });
-
-        sleep.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent sleepIntent = new Intent(MainActivity.this, SleepActivity.class);
-                startActivity(sleepIntent);
-            }
-        });
-
-        doing.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent doingIntent = new Intent(MainActivity.this, DoingActivity.class);
-                startActivity(doingIntent);
-            }
-        });
+        ViewPager pager = (ViewPager) findViewById(R.id.viewpager);
+        KielceTourFragmentPagerAdapter categoryAdapter = new KielceTourFragmentPagerAdapter(getSupportFragmentManager());
+        pager.setAdapter(categoryAdapter);
     }
 }

@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="@dimen/list_item_padding">
 
     <TextView
         android:id="@+id/place_description_name"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="@dimen/item_description_margin"
         android:layout_weight="1"
         android:gravity="center"
         android:textAppearance="?android:textAppearanceLarge"
@@ -24,7 +24,7 @@
         android:id="@+id/place_description_image_id"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="@dimen/item_description_margin"
         android:layout_weight="3"
         android:scaleType="centerCrop"
         tools:src="@drawable/burgerco" />
