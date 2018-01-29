@@ -21,16 +21,33 @@ public class ItemDescription extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.item_description);
 
+        /**
+         * Constructor for each item detailed description
+         *
+         * List of object's states - name, image and description
+         * plus the place location
+         *
+         */
+
         TextView name = (TextView) findViewById(R.id.place_description_name);
         ImageView image = (ImageView) findViewById(R.id.place_description_image_id);
         TextView placeDescription = (TextView) findViewById(R.id.place_description_description);
         ImageView placeDescriptionLocation = (ImageView) findViewById(R.id.place_description_location);
 
+        /**
+         * setting the bundle for the values of
+         * name, image and place description
+         */
         final Bundle extras = getIntent().getExtras();
 
         name.setText(extras.getString("name"));
         image.setImageResource(extras.getInt("image"));
         placeDescription.setText(extras.getString("placeDescription"));
+
+        /**
+         * creating the onClick-functionality of the method that's sending intent to gm apk and
+         * searching for the place's name.
+         */
 
         placeDescriptionLocation.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +57,6 @@ public class ItemDescription extends AppCompatActivity {
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 startActivity(mapIntent);
-
             }
         });
     }

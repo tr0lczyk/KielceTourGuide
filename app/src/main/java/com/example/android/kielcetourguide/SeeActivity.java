@@ -18,7 +18,7 @@ public class SeeActivity extends AppCompatActivity {
         setContentView(R.layout.item_list);
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Solna 12","An intimate restaurant",R.drawable.solna12));
+        items.add(new Item("Solna 12 Restaurant","An intimate restaurant",R.drawable.solna12));
         items.add(new Item("Tutti Santi Kielce","Magnificent Italian cuisine",R.drawable.tutti));
         items.add(new Item("John Burg","Best Steakes and burgers",R.drawable.johnburg));
         items.add(new Item("Del Favero","A real Italy in Kielce",R.drawable.delitaliana));
