@@ -18,7 +18,7 @@
         </activity>
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <activity android:name=".ItemDescription"
-            android:label="@string/doing"
+            android:label="@string/how_to"
             android:parentActivityName="com.example.android.kielcetourguide.MainActivity"/>
     </application>
 
