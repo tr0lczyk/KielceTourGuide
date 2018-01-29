@@ -11,12 +11,26 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class KielceTourFragmentPagerAdapter extends FragmentPagerAdapter {
 
+    /**
+     * Create a new adapter object.
+     *
+     * @parametr context is the context of the app
+     * @parametr fm - fragment manager that keeps each fragment's state in the adapter
+     *           across swipes.
+     */
+
     private Context mContext;
 
     public KielceTourFragmentPagerAdapter(Context context, FragmentManager fm){
         super(fm);
         mContext = context;
     }
+
+    /**
+     *
+     * @parametr position the position of the tab
+     * @return returns fragment corresponding to the position
+     */
 
     @Override
     public Fragment getItem(int position) {
@@ -31,10 +45,19 @@ public class KielceTourFragmentPagerAdapter extends FragmentPagerAdapter {
         }
     }
 
+    /**
+     * Return the total number of pages.
+     */
+
     @Override
     public int getCount() {
         return 4;
     }
+    /**
+     *
+     * @parametr position the position of the tab
+     * @return returns tab's name of the fragment corresponding to the position
+     */
 
     @Override
     public CharSequence getPageTitle(int position) {

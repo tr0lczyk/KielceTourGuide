@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * A simple {@link Fragment} subclass.
+ * Fragment that  displays a list of objects
  */
 public class EatFragment extends Fragment {
 
@@ -30,6 +30,8 @@ public class EatFragment extends Fragment {
         TextView textView = new TextView(getActivity());
         View rootView = inflater.inflate(R.layout.item_list, container, false);
 
+//        Creates the list of objects from the accurate category
+
         final ArrayList<Item> items = new ArrayList<>();
         items.add(new Item("Solna 12 Restaurant","An intimate restaurant",R.drawable.solna12));
         items.add(new Item("Tutti Santi Kielce","Magnificent Italian cuisine",R.drawable.tutti));
@@ -42,10 +44,17 @@ public class EatFragment extends Fragment {
         items.add(new Item("Craft Beer Pub","Very nice place",R.drawable.craftbeer));
         items.add(new Item("Monte-Carlo Restaurant","Delicious and very efficient",R.drawable.montecarlo));
 
+//        creates adapter with the @param of the object's array and the background color
+//        adapter transferring the information on object to the listVIew that displays them
+//        ListVIew list_view is grabbed and adapter is used on it
         final ItemAdapter itemsArray = new ItemAdapter(getActivity(),items, R.color.eat);
         ListView listView = (ListView) rootView.findViewById(R.id.list_view);
         listView.setAdapter(itemsArray);
 
+        /*  setOnItemClickListener for the List items
+        *   currentItem being clicked intent from this context to ItemDescription.class
+        *   putExtra for getting the name, placeDescription and image of the currentItem
+        *   to ptransfer them to ItemDescription.class */
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {

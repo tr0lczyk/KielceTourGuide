@@ -10,16 +10,13 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView see;
-    TextView eat;
-    TextView sleep;
-    TextView doing;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        setting the view pager that allows to swiping through fragments
+//        + setting tab layout's name based on the fragments name that is swiped
         ViewPager pager = (ViewPager) findViewById(R.id.viewpager);
         TabLayout tabLayout = findViewById(R.id.tabs);
         KielceTourFragmentPagerAdapter categoryAdapter = new KielceTourFragmentPagerAdapter(this,getSupportFragmentManager());

@@ -39,6 +39,10 @@ public class ItemAdapter extends ArrayAdapter<Item> {
     }
 
 
+
+    /*check if the view is being reused
+    * if it isn't,
+    * inflate the new view*/
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
@@ -47,21 +51,27 @@ public class ItemAdapter extends ArrayAdapter<Item> {
                     false);
         }
 
+//        get the object positioned on the exact spot (that's my spot!:) on list
         Item currentItem = getItem(position);
 
+//        setting the object's name of the place
         TextView placeName = listItemView.findViewById(R.id.place_name);
         placeName.setText(currentItem.getPlaceName());
 
+//        setting the object's description
         TextView placeDescription = listItemView.findViewById(R.id.place_description);
         placeDescription.setText(currentItem.getPlaceDescription());
 
+//        setting the resourseID of the list_item image
         ImageView imageResourceId = listItemView.findViewById(R.id.image_id);
         imageResourceId.setImageResource(currentItem.getImageResourceId());
 
+//        setting the color of list_item
         View textContainer = listItemView.findViewById(R.id.text_container);
         int color = ContextCompat.getColor(getContext(),mColorResourceId);
         textContainer.setBackgroundColor(color);
 
+//        returns list item layout
         return listItemView;
     }
 }
