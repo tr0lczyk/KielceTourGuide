@@ -33,16 +33,16 @@ public class DoingFragment extends Fragment {
 //        Creates the list of objects from the accurate category
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Kielce rope park","Fun, monkey style!",R.drawable.solna12));
-        items.add(new Item("Unlock the doore","A great escape room",R.drawable.tutti));
-        items.add(new Item("Cracow Bishops' Palace","Splendor of the medival priests",R.drawable.johnburg));
-        items.add(new Item("VR disco centre","Virtual dance!",R.drawable.delitaliana));
-        items.add(new Item("VR kielce Experience","Get your virtual fun!",R.drawable.sisenor));
-        items.add(new Item("Museum of Toys and Play Kielce.","Unleash your inner child",R.drawable.burgerco));
-        items.add(new Item("Echo Gallery","Really big shopping mall",R.drawable.slon));
-        items.add(new Item("Amusement Park Krajno","Meet the history of Swietokrzyskie",R.drawable.cremova));
-        items.add(new Item("Kielce's National Museum","Very nice place",R.drawable.craftbeer));
-        items.add(new Item("Świętokrzyska Philharmonic","Great classic concerts",R.drawable.montecarlo));
+        items.add(new Item("Kielce rope park","Fun, monkey style!",R.drawable.doinparklinowy));
+        items.add(new Item("Unlock the door","A great escape room",R.drawable.doinunlockdoor));
+        items.add(new Item("Cracow Bishops' Palace","Splendor of the medival priests",R.drawable.doinpalacbiskupow));
+        items.add(new Item("VR disco centre","Virtual dance!",R.drawable.doindiscovr));
+        items.add(new Item("VR Kielce Experience","Get your virtual fun!",R.drawable.doinexperiencevr));
+        items.add(new Item("Museum of Toys and Play Kielce.","Unleash your inner child",R.drawable.doinmuzeumzabawek));
+        items.add(new Item("Echo Gallery","Really big shopping mall",R.drawable.doinechogaleria));
+        items.add(new Item("Amusement Park Krajno","Meet the history of Swietokrzyskie",R.drawable.doinamusementpark));
+        items.add(new Item("Kielce's National Museum","Very nice place",R.drawable.doinmuzeumkielce));
+        items.add(new Item("Świętokrzyska Philharmonic","Great classic concerts",R.drawable.doingfilharmoniasw));
 
 //        creates adapter with the @param of the object's array and the background color
 //        adapter transferring the information on object to the listVIew that displays them
