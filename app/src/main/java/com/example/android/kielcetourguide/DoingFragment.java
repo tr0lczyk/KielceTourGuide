@@ -35,9 +35,9 @@ public class DoingFragment extends Fragment {
         final ArrayList<Item> items = new ArrayList<>();
         items.add(new Item("Kielce rope park","Fun, monkey style!",R.drawable.doinparklinowy));
         items.add(new Item("Unlock the door","A great escape room",R.drawable.doinunlockdoor));
-        items.add(new Item("Cracow Bishops' Palace","Splendor of the medival priests",R.drawable.doinpalacbiskupow));
-        items.add(new Item("VR disco centre","Virtual dance!",R.drawable.doindiscovr));
-        items.add(new Item("VR Kielce Experience","Get your virtual fun!",R.drawable.doinexperiencevr));
+        items.add(new Item("Cracow Bishops' Palace Kielce","Splendor of the medival priests",R.drawable.doinpalacbiskupow));
+        items.add(new Item("VR disco centre Kielce","Virtual dance!",R.drawable.doindiscovr));
+        items.add(new Item("VR Kielce","Get your virtual fun!",R.drawable.doinexperiencevr));
         items.add(new Item("Museum of Toys and Play Kielce.","Unleash your inner child",R.drawable.doinmuzeumzabawek));
         items.add(new Item("Echo Gallery","Really big shopping mall",R.drawable.doinechogaleria));
         items.add(new Item("Amusement Park Krajno","Meet the history of Swietokrzyskie",R.drawable.doinamusementpark));
