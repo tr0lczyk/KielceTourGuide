@@ -36,7 +36,7 @@ public class SleepFragment extends Fragment {
         items.add(new Item("Hotel Aviator","from 171 zł for a room",R.drawable.hotelaviator));
         items.add(new Item("Best Western Grand Hotel","from 162 zł for a room",R.drawable.hotelwestern));
         items.add(new Item("Ibis Kielce Centrum","from 111 zł for a room",R.drawable.hotelibis));
-        items.add(new Item("Hotel Śródmiejski","from 180 zł for a room",R.drawable.hoteloddysey));
+        items.add(new Item("Hotel Śródmiejski","from 180 zł for a room",R.drawable.hotelmiej));
         items.add(new Item("Odyssey ClubHotel Wellness & SPA","from 420 zł for a room",R.drawable.hoteloddysey));
         items.add(new Item("Hotel Binkowski","from 240 zł for a room",R.drawable.hotelbinkowski));
         items.add(new Item("Hotel Teczowy Mlyn","from 130 zł for a room",R.drawable.hotelteczowy));
