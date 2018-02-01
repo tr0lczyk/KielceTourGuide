@@ -7,6 +7,6 @@ If you want to see the app in action, please follow this link: https://tr0lczyk.
 
 The application looks like that:
 
-
+![](image/kielce1.PNG)![](image/kielce2.PNG)![](image/kielce3.PNG)
 
 
