@@ -33,7 +33,7 @@ public class DoingFragment extends Fragment {
 //        Creates the list of objects from the accurate category
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Kielce rope park","Fun, monkey style!",R.drawable.doinparklinowy));
+        items.add(new Item("Kielce Rope park","Fun, monkey style!",R.drawable.doinparklinowy));
         items.add(new Item("Unlock the door","A great escape room",R.drawable.doinunlockdoor));
         items.add(new Item("Cracow Bishops' Palace Kielce","Splendor of the medival priests",R.drawable.doinpalacbiskupow));
         items.add(new Item("VR disco centre Kielce","Virtual dance!",R.drawable.doindiscovr));

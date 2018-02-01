@@ -36,11 +36,11 @@ public class SeeFragment extends Fragment {
         items.add(new Item("Sienkiewicza Street","Main street - promenade",R.drawable.seesienkiwicza));
         items.add(new Item("Geocentre Kadzielnia","Stones with the concert hall",R.drawable.seekadzielnia));
         items.add(new Item("Karczówka Monastery","Monks' place of peace",R.drawable.seekarczowka));
-        items.add(new Item("Kielce's Mary Basilic ","Most beautiful church in Kielce",R.drawable.seebazylika));
+        items.add(new Item("Kielce St. Mary Basilic ","Most beautiful church in Kielce",R.drawable.seebazylika));
         items.add(new Item("Artists' square","Place of events and festivalsg",R.drawable.seeartystow));
-        items.add(new Item("Kielce's St. Joseph's","Tallest church in city",R.drawable.seejozef));
-        items.add(new Item("Kielce's St. Wojciech's","Oldest church in Kielce",R.drawable.seewojciech));
-        items.add(new Item("Kielce Market square","Market with restaurants ",R.drawable.seemarket));
+        items.add(new Item("Kielce St. Joseph church","Tallest church in city",R.drawable.seejozef));
+        items.add(new Item("Kielce St. Wojciech church","Oldest church in Kielce",R.drawable.seewojciech));
+        items.add(new Item("Kielce Main square","Market with restaurants ",R.drawable.seemarket));
         items.add(new Item("Tomasz Zieliński Mansion","Culture centre for youg people",R.drawable.seezielinski));
         items.add(new Item("Stanislaw Staszic Park","A place to catch a breath",R.drawable.seepark));
 

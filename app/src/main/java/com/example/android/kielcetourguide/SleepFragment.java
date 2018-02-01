@@ -68,5 +68,4 @@ public class SleepFragment extends Fragment {
         });
         return rootView;
     }
-
 }
