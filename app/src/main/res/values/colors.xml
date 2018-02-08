@@ -10,4 +10,9 @@
     <color name="category">#FFFFFF</color>
     <color name="background_color">#FFFACD</color>
     <color name="text_color">#FFFFFF</color>
+    <!-- Text color for the details of the earthquake in the list item -->
+    <color name="textColorEarthquakeDetails">#B4BAC0</color>
+
+    <!-- Text color for the primary location of the earthquake in the list item -->
+    <color name="textColorEarthquakeLocation">#2B3D4D</color>
 </resources>
