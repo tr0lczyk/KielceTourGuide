@@ -28,4 +28,24 @@
     <string name="natmuseumD">Very nice place</string>
     <string name="filharmon">Świętokrzyska Philharmonic</string>
     <string name="filharmonD">Great classic concerts</string>
+    <string name="solna">Solna 12 Restaurant</string>
+    <string name="solnaD">An intimate restaurant</string>
+    <string name="tutti">Tutti Santi Kielce</string>
+    <string name="tuttiD">Magnificent Italian cuisine</string>
+    <string name="burg">John Burg</string>
+    <string name="burgD">Best Steakes and burgers</string>
+    <string name="favero">Del Favero</string>
+    <string name="faveroD">A real Italy in Kielce</string>
+    <string name="senor">Si Senor</string>
+    <string name="senorD">A place worth recommending</string>
+    <string name="burger"><![CDATA[Burger & Co.]]></string>
+    <string name="burgerD">Mega Tasty!</string>
+    <string name="elephant">Yellow Elephant</string>
+    <string name="elephantD">The best Mediterranean cuisine</string>
+    <string name="cremova">Cremova</string>
+    <string name="cremovaD">Delicious cakes and tea</string>
+    <string name="craftbeerD">Craft Beer Pub</string>
+    <string name="creaftbeer">Very nice place</string>
+    <string name="montecarlo">Monte-Carlo Restaurant</string>
+    <string name="montecarloD">Delicious and very efficient</string>
 </resources>

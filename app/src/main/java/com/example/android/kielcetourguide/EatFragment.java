@@ -33,16 +33,16 @@ public class EatFragment extends Fragment {
 //        Creates the list of objects from the accurate category
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Solna 12 Restaurant","An intimate restaurant",R.drawable.solna12));
-        items.add(new Item("Tutti Santi Kielce","Magnificent Italian cuisine",R.drawable.tutti));
-        items.add(new Item("John Burg","Best Steakes and burgers",R.drawable.johnburg));
-        items.add(new Item("Del Favero","A real Italy in Kielce",R.drawable.delitaliana));
-        items.add(new Item("Si Senor","A place worth recommending",R.drawable.sisenor));
-        items.add(new Item("Burger & Co.","Mega Tasty!",R.drawable.burgerco));
-        items.add(new Item("Yellow Elephant","The best Mediterranean cuisine",R.drawable.slon));
-        items.add(new Item("Cremova","Delicious cakes and tea",R.drawable.cremova));
-        items.add(new Item("Craft Beer Pub","Very nice place",R.drawable.craftbeer));
-        items.add(new Item("Monte-Carlo Restaurant","Delicious and very efficient",R.drawable.montecarlo));
+        items.add(new Item(getString(R.string.solna),getString(R.string.solnaD),R.drawable.solna12));
+        items.add(new Item(getString(R.string.tutti),getString(R.string.tuttiD),R.drawable.tutti));
+        items.add(new Item(getString(R.string.burg),getString(R.string.burgD),R.drawable.johnburg));
+        items.add(new Item(getString(R.string.favero),getString(R.string.faveroD),R.drawable.delitaliana));
+        items.add(new Item(getString(R.string.senor),getString(R.string.senorD),R.drawable.sisenor));
+        items.add(new Item(getString(R.string.burger),getString(R.string.burgerD),R.drawable.burgerco));
+        items.add(new Item(getString(R.string.elephant),getString(R.string.elephantD),R.drawable.slon));
+        items.add(new Item(getString(R.string.cremova),getString(R.string.cremovaD),R.drawable.cremova));
+        items.add(new Item(getString(R.string.craftbeerD),getString(R.string.creaftbeer),R.drawable.craftbeer));
+        items.add(new Item(getString(R.string.montecarlo),getString(R.string.montecarloD),R.drawable.montecarlo));
 
 //        creates adapter with the @param of the object's array and the background color
 //        adapter transferring the information on object to the listVIew that displays them
