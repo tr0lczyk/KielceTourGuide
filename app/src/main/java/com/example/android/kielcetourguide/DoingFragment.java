@@ -34,15 +34,15 @@ public class DoingFragment extends Fragment {
 
         final ArrayList<Item> items = new ArrayList<>();
         items.add(new Item(getString(R.string.rope),getString(R.string.ropeD),R.drawable.doinparklinowy));
-        items.add(new Item("Unlock the door","A great escape room",R.drawable.doinunlockdoor));
-        items.add(new Item("Cracow Bishops' Palace Kielce","Splendor of the medival priests",R.drawable.doinpalacbiskupow));
-        items.add(new Item("VR disco centre Kielce","Virtual dance!",R.drawable.doindiscovr));
-        items.add(new Item("VR Kielce","Get your virtual fun!",R.drawable.doinexperiencevr));
-        items.add(new Item("Museum of Toys and Play Kielce.","Unleash your inner child",R.drawable.doinmuzeumzabawek));
-        items.add(new Item("Echo Gallery","Really big shopping mall",R.drawable.doinechogaleria));
-        items.add(new Item("Amusement Park Krajno","Meet the history of Swietokrzyskie",R.drawable.doinamusementpark));
-        items.add(new Item("Kielce's National Museum","Very nice place",R.drawable.doinmuzeumkielce));
-        items.add(new Item("Świętokrzyska Philharmonic","Great classic concerts",R.drawable.doingfilharmoniasw));
+        items.add(new Item(getString(R.string.door),getString(R.string.doorD),R.drawable.doinunlockdoor));
+        items.add(new Item(getString(R.string.bishop),getString(R.string.bishopD),R.drawable.doinpalacbiskupow));
+        items.add(new Item(getString(R.string.vrdisco),getString(R.string.vrdiscoD),R.drawable.doindiscovr));
+        items.add(new Item(getString(R.string.kielcevr),getString(R.string.kielcevrD),R.drawable.doinexperiencevr));
+        items.add(new Item(getString(R.string.museum),getString(R.string.museumD),R.drawable.doinmuzeumzabawek));
+        items.add(new Item(getString(R.string.gallery),getString(R.string.galeryD),R.drawable.doinechogaleria));
+        items.add(new Item(getString(R.string.krajno),getString(R.string.krajnoD),R.drawable.doinamusementpark));
+        items.add(new Item(getString(R.string.natmuseum),getString(R.string.natmuseumD),R.drawable.doinmuzeumkielce));
+        items.add(new Item(getString(R.string.filharmon),getString(R.string.filharmonD),R.drawable.doingfilharmoniasw));
 
 //        creates adapter with the @param of the object's array and the background color
 //        adapter transferring the information on object to the listVIew that displays them

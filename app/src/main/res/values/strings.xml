@@ -10,4 +10,22 @@
     <string name="how_to">How to get there?</string>
     <string name="rope">Kielce Rope park</string>
     <string name="ropeD">Fun, monkey style!</string>
+    <string name="door">Unlock the door</string>
+    <string name="doorD">A great escape room</string>
+    <string name="bishop">Cracow Bishops\' Palace Kielce</string>
+    <string name="bishopD">Splendor of the medival priests</string>
+    <string name="vrdisco">VR disco centre Kielce</string>
+    <string name="vrdiscoD">Virtual dance!</string>
+    <string name="kielcevr">VR Kielce</string>
+    <string name="kielcevrD">Get your virtual fun!</string>
+    <string name="museum">Museum of Toys and Play Kielce.</string>
+    <string name="museumD">Unleash your inner child</string>
+    <string name="gallery">Echo Gallery</string>
+    <string name="galeryD">Really big shopping mall</string>
+    <string name="krajno">Amusement Park Krajno</string>
+    <string name="krajnoD">Meet the history of Swietokrzyskie</string>
+    <string name="natmuseum">Kielce\'s National Museum</string>
+    <string name="natmuseumD">Very nice place</string>
+    <string name="filharmon">Świętokrzyska Philharmonic</string>
+    <string name="filharmonD">Great classic concerts</string>
 </resources>
