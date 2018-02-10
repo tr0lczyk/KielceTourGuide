@@ -33,16 +33,16 @@ public class SeeFragment extends Fragment {
 //        Creates the list of objects from the accurate category
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Sienkiewicza Street","Main street - promenade",R.drawable.seesienkiwicza));
-        items.add(new Item("Geocentre Kadzielnia","Stones with the concert hall",R.drawable.seekadzielnia));
-        items.add(new Item("Karczówka Monastery","Monks' place of peace",R.drawable.seekarczowka));
-        items.add(new Item("Kielce St. Mary Basilic ","Most beautiful church in Kielce",R.drawable.seebazylika));
-        items.add(new Item("Artists' square","Place of events and festivalsg",R.drawable.seeartystow));
-        items.add(new Item("Kielce St. Joseph church","Tallest church in city",R.drawable.seejozef));
-        items.add(new Item("Kielce St. Wojciech church","Oldest church in Kielce",R.drawable.seewojciech));
-        items.add(new Item("Kielce Main square","Market with restaurants ",R.drawable.seemarket));
-        items.add(new Item("Tomasz Zieliński Mansion","Culture centre for youg people",R.drawable.seezielinski));
-        items.add(new Item("Stanislaw Staszic Park","A place to catch a breath",R.drawable.seepark));
+        items.add(new Item(getString(R.string.sienkiewicza),getString(R.string.sienkiewiczaD),R.drawable.seesienkiwicza));
+        items.add(new Item(getString(R.string.kadzielnia),getString(R.string.kadzielniaD),R.drawable.seekadzielnia));
+        items.add(new Item(getString(R.string.karczówka),getString(R.string.karczókaD),R.drawable.seekarczowka));
+        items.add(new Item(getString(R.string.basillic),getString(R.string.basillicD),R.drawable.seebazylika));
+        items.add(new Item(getString(R.string.placartystow),getString(R.string.placartystowD),R.drawable.seeartystow));
+        items.add(new Item(getString(R.string.joseph),getString(R.string.josephD),R.drawable.seejozef));
+        items.add(new Item(getString(R.string.wojciech),getString(R.string.ojciechD),R.drawable.seewojciech));
+        items.add(new Item(getString(R.string.mainsquare),getString(R.string.mainsquareD),R.drawable.seemarket));
+        items.add(new Item(getString(R.string.zielinski),getString(R.string.zielinskiD),R.drawable.seezielinski));
+        items.add(new Item(getString(R.string.staszica),getString(R.string.staszicaD),R.drawable.seepark));
 
 //        creates adapter with the @param of the object's array and the background color
 //        adapter transferring the information on object to the listVIew that displays them

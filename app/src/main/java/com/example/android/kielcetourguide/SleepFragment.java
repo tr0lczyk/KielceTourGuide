@@ -33,16 +33,16 @@ public class SleepFragment extends Fragment {
 //        Creates the list of objects from the accurate category
 
         final ArrayList<Item> items = new ArrayList<>();
-        items.add(new Item("Hotel Aviator","from 171 zł for a room",R.drawable.hotelaviator));
-        items.add(new Item("Best Western Grand Hotel","from 162 zł for a room",R.drawable.hotelwestern));
-        items.add(new Item("Ibis Kielce Centrum","from 111 zł for a room",R.drawable.hotelibis));
-        items.add(new Item("Hotel Śródmiejski","from 180 zł for a room",R.drawable.hotelmiej));
-        items.add(new Item("Odyssey ClubHotel Wellness & SPA","from 420 zł for a room",R.drawable.hoteloddysey));
-        items.add(new Item("Hotel Binkowski","from 240 zł for a room",R.drawable.hotelbinkowski));
-        items.add(new Item("Hotel Teczowy Mlyn","from 130 zł for a room",R.drawable.hotelteczowy));
-        items.add(new Item("Hotel Dal","from 134 zł for a room",R.drawable.hoteldal));
-        items.add(new Item("Willa Hueta","from 144 zł for a room",R.drawable.hotelwilla));
-        items.add(new Item("Qubus Hotel Kielce","from 209 zł for a room",R.drawable.hotelonemaja));
+        items.add(new Item(getString(R.string.aviator),getString(R.string.aviatorD),R.drawable.hotelaviator));
+        items.add(new Item(getString(R.string.grand),getString(R.string.grandD),R.drawable.hotelwestern));
+        items.add(new Item(getString(R.string.ibisD),getString(R.string.ibisdescr),R.drawable.hotelibis));
+        items.add(new Item(getString(R.string.srodmiejski),getString(R.string.srodmiejskiD),R.drawable.hotelmiej));
+        items.add(new Item(getString(R.string.oddysey),getString(R.string.odyseyD),R.drawable.hoteloddysey));
+        items.add(new Item(getString(R.string.binkowski),getString(R.string.binkowskiD),R.drawable.hotelbinkowski));
+        items.add(new Item(getString(R.string.teczowy),getString(R.string.teczowyD),R.drawable.hotelteczowy));
+        items.add(new Item(getString(R.string.dal),getString(R.string.dalD),R.drawable.hoteldal));
+        items.add(new Item(getString(R.string.hueta),getString(R.string.huetaD),R.drawable.hotelwilla));
+        items.add(new Item(getString(R.string.qubus),getString(R.string.qubusD),R.drawable.hotelonemaja));
 
 //        creates adapter with the @param of the object's array and the background color
 //        adapter transferring the information on object to the listVIew that displays them

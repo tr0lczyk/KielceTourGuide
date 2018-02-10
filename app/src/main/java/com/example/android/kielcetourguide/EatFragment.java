@@ -66,8 +66,6 @@ public class EatFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return rootView;
     }
-
 }
