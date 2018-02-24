@@ -3,14 +3,15 @@
     <color name="colorPrimary">#F8A107</color>
     <color name="colorPrimaryDark">#ff8000</color>
     <color name="colorAccent">#FE0000</color>
-    <!-- Background color for see category-->
+    <!-- Background colour for see category-->
     <color name="see">#CA5010</color>
-    <!-- Background color for eat category-->
+    <!-- Background colour for eat category-->
     <color name="eat">#8E8CD8</color>
-    <!-- Background color for sleep category-->
+    <!-- Background colour for sleep category-->
     <color name="sleep">#00B7C3</color>
-    <!-- Background color for doing category-->
+    <!-- Background colour for doing category-->
     <color name="doing">#fb9898</color>
+    <!--category colour-->
     <color name="category">#FFFFFF</color>
     <color name="background_color">#FFFACD</color>
     <color name="text_color">#FFFFFF</color>
