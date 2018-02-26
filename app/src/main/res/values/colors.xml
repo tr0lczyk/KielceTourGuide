@@ -13,6 +13,7 @@
     <color name="doing">#fb9898</color>
     <!--category colour-->
     <color name="category">#FFFFFF</color>
+    <!--General Background color-->
     <color name="background_color">#FFFACD</color>
     <color name="text_color">#FFFFFF</color>
     <!-- Text color for the details of the earthquake in the list item -->
