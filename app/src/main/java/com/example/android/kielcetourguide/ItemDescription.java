@@ -27,10 +27,10 @@ public class ItemDescription extends AppCompatActivity {
          *
          */
 
-        TextView name = (TextView) findViewById(R.id.place_description_name);
-        ImageView image = (ImageView) findViewById(R.id.place_description_image_id);
-        TextView placeDescription = (TextView) findViewById(R.id.place_description_description);
-        ImageView placeDescriptionLocation = (ImageView) findViewById(R.id.place_description_location);
+        TextView name = findViewById(R.id.place_description_name);
+        ImageView image = findViewById(R.id.place_description_image_id);
+        TextView placeDescription = findViewById(R.id.place_description_description);
+        ImageView placeDescriptionLocation = findViewById(R.id.place_description_location);
 
         /**
          * setting the bundle for the values of
