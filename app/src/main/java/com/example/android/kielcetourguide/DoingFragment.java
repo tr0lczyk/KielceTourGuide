@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
@@ -17,16 +16,13 @@ import java.util.ArrayList;
  */
 public class DoingFragment extends Fragment {
 
-
     public DoingFragment() {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        TextView textView = new TextView(getActivity());
         View rootView = inflater.inflate(R.layout.item_list, container, false);
 
 //        Creates the list of objects from the accurate category
@@ -47,7 +43,7 @@ public class DoingFragment extends Fragment {
 //        adapter transferring the information on object to the listVIew that displays them
 //        ListVIew list_view is grabbed and adapter is used on it
         final ItemAdapter itemsArray = new ItemAdapter(getActivity(),items, R.color.doing);
-        ListView listView = (ListView) rootView.findViewById(R.id.list_view);
+        ListView listView = rootView.findViewById(R.id.list_view);
         listView.setAdapter(itemsArray);
 
         /*  setOnItemClickListener for the List items

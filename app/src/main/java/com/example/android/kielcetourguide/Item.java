@@ -12,11 +12,11 @@ public class Item {
     * States of the Item object
     *
     * */
-    private String mPlaceName;
+    private String myPlaceName;
 
-    private String mPlaceDescription;
+    private String myPlaceDescription;
 
-    private int mImageResourceId;
+    private int myImageResourceId;
 
     /*
     *
@@ -24,9 +24,9 @@ public class Item {
     *
     * */
     public Item(String placeName, String placeDescription, int imageResourceId){
-        mPlaceName = placeName;
-        mPlaceDescription = placeDescription;
-        mImageResourceId = imageResourceId;
+        myPlaceName = placeName;
+        myPlaceDescription = placeDescription;
+        myImageResourceId = imageResourceId;
     }
 
     /*
@@ -35,14 +35,14 @@ public class Item {
     *
     * */
     public String getPlaceName(){
-        return mPlaceName;
+        return myPlaceName;
     }
 
     public String getPlaceDescription(){
-        return mPlaceDescription;
+        return myPlaceDescription;
     }
 
     public int getImageResourceId(){
-        return mImageResourceId;
+        return myImageResourceId;
     }
 }
